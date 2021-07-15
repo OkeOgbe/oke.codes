@@ -1,0 +1,35 @@
+.nav{
+    background-color: #00202B;
+    min-height: 9vh;
+}
+
+.logo{
+    position: relative;
+}
+
+.logo .logoEffect{
+       position: absolute;
+       height: 15px;
+       background-color: #ec676c61;
+       width: 100%;
+       top: 10px;
+       left: 8px;
+}
+
+.linkHolder .link {
+    transition: all 0.2s ease;
+    color: #ffff;
+}
+
+.linkHolder .link:hover {
+    color: var(--defaultPink)
+}
+
+.activeLink::after{
+    content: '';
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+    margin: 0 auto;
+    background-color: var(--defaultPink);
+}
