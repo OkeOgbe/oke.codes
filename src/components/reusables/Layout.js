@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import styles from '../../styles/Landing.module.css';
 import Nav from './Nav';
+import Footer from './Footer';
 
 const Layout = ({bgText, children}) => {
 
@@ -18,11 +19,13 @@ const Layout = ({bgText, children}) => {
                         lineHeight: 1
                     }}>{bgText}</h2>
 
-                    <div className={`${light && styles.light} ${styles.content}`}>
+                    <div className={`alignOnly ${light && styles.light} ${styles.content}`}>
                         {children}
                     </div>
                 </div>
             </div>
+
+            <Footer/>
         </>
     )
 }

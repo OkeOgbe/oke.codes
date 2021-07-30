@@ -10,11 +10,11 @@ function Nav({changeTheme}) {
             text: 'About',
             url: '/about'
         }, {
-            text: 'Contact',
-            url: '/about'
-        }, {
             text: 'Portfolio',
-            url: '/about'
+            url: '/portfolio'
+        }, {
+            text: 'Contact',
+            url: '/contact'
         }
     ]
 
@@ -22,19 +22,23 @@ function Nav({changeTheme}) {
         <div className={`alignOnly ${styles.nav}`}>
             <div className="container alignOnly spaceBetween">
                 <div className='d-flex'>
-                <Link className={styles.logo}>
-                    <h2 className="sectionText textIsPink mb-0">oke.codes</h2>
-                    <div className={styles.logoEffect}></div>
-                </Link>
+                    <Link to='/' className={styles.logo}>
+                        <h2 className="sectionText textIsPink mb-0">oke.codes</h2>
+                        <div className={styles.logoEffect}></div>
+                    </Link>
 
-                <div className="mx-4">
-                    <Themetoggle activate={changeTheme}/>
-                </div>
+                    <div className="mx-4">
+                        <Themetoggle activate={changeTheme}/>
+                    </div>
                 </div>
 
                 <div className={`spaceBetween ${styles.linkHolder}`}>
                     {routes.map(route => (
-                        <NavLink to={route.url} activeClassName={styles.activeLink} className={`mx-4 sectionText--mid ${styles.link}`}>{route.text}</NavLink>
+                        <NavLink
+                            exact
+                            to={route.url}
+                            activeClassName={styles.activeLink}
+                            className={`mx-4 sectionText--mid isRelative ${styles.link}`}>{route.text}</NavLink>
                     ))}
                 </div>
             </div>

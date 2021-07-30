@@ -15,12 +15,36 @@ a{
     text-decoration: none !important;
 }
 
+a:hover{
+    color: #fff !important;
+}
+
 body {
     font-family: var(--defaultFont) !important;
 }
 
+.sectionHeight{
+    min-height: 70vh;
+}
+
+.sectionHeight--mid{
+     min-height: 40vh;
+}
+
+.sectionHeight--small{
+    min-height: 20vh;
+}
+
+.fullHeight{
+    min-height: 91vh;
+}
+
 .sectionHead {
     font-size: 50px;
+}
+
+.sectionHead--mid{
+    font-size: 30px;
 }
 
 .sectionText{
@@ -31,13 +55,21 @@ body {
     font-size: 15px;
 }
 
+.sectionText--small{
+    font-size: 12px;
+}
+
 .hasBgColor {
     background-color: var(--defaultColor);
-    min-height: 100vh;
+    min-height: 91vh;
 }
 
 .isClickable{
     cursor: pointer;
+}
+
+.textIsBold{
+    font-weight: bold;
 }
 
 .bgText {
@@ -55,7 +87,7 @@ body {
 }
 
 .ease {
-    transition: all 1s ease-in;
+    transition: all 1s ease;
 }
 
 .alignOnly {
@@ -63,13 +95,31 @@ body {
     align-items: center;
 }
 
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vAlign{
+    text-align: center;
+}
+
 .spaceBetween{
     display: flex;
     justify-content: space-between;
 }
 
+.noPad{
+    padding: 0 !important;
+}
+
 .textIsWhite {
     color: #fff;
+}
+
+.textIsWhite--fade{
+    color: #dacece;
 }
 
 .textIsPink {
@@ -90,7 +140,7 @@ body {
 }
 
 .defaultBtn i {
-    margin-left: 2px;
+    margin-left: 3px;
     transition: all 0.2s ease;
 }
 
@@ -171,4 +221,14 @@ body {
 
 .light .text--light{
     color: var(--defaultColor);
+}
+
+@media (max-width: 780px) {
+    .sectionHeight{
+        min-height: 60vh;
+    }
+
+    .flex-reverse{
+        flex-direction: column-reverse;
+    }
 }
