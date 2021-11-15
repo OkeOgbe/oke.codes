@@ -1,9 +1,12 @@
-import React from 'react';
+import React, {useState} from 'react';
 import {NavLink, Link} from 'react-router-dom';
 import styles from '../../styles/Nav.module.css';
 import Themetoggle from './Themetoggle';
 
 function Nav({changeTheme}) {
+
+    const [isActive,
+        setIsActive] = useState(false);
 
     const routes = [
         {
@@ -40,6 +43,16 @@ function Nav({changeTheme}) {
                             activeClassName={styles.activeLink}
                             className={`mx-4 sectionText--mid isRelative ${styles.link}`}>{route.text}</NavLink>
                     ))}
+                </div>
+
+                <div className={`mt-2 ${styles.menuIcon}`} onClick={() => setIsActive(!isActive)}>
+                    <div
+                        className={`${isActive
+                        ? styles.open
+                        : ''} ${styles.menuIcon}`}>
+                        <p></p>
+                        <p></p>
+                    </div>
                 </div>
             </div>
         </div>

@@ -139,6 +139,12 @@ body {
     transition: all 2s ease;
 }
 
+.defaultBtn.small{
+    width: 150px;
+    font-size: 13px;
+    padding: 1rem;
+}
+
 .defaultBtn i {
     margin-left: 3px;
     transition: all 0.2s ease;
