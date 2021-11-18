@@ -10,10 +10,10 @@ export const exp = [
     }, {
         companyName: 'ioHub Innovative Agency',
         role: 'Frontend Developer',
-        duration: 'Nov 2019 - Present'
+        duration: 'Nov 2019 - Present (Contract)'
     }, {
         companyName: 'Raddr Technologies',
         role: 'React Developer',
-        duration: 'Jun 2020 - Present'
+        duration: 'Jun 2020 - Present  (Contract)'
     }
 ]

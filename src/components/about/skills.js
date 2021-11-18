@@ -13,10 +13,15 @@ function Skills() {
         'Next.js',
         'TypeScript',
         'Bootstrap',
+        'Bulma',
         'Material UI',
         'SCSS',
         'Firebase',
-        'Git and Version Control'
+        'Git and Version Control',
+        'Node.js',
+        'Web3.js',
+        'Express',
+        'Mongo DB'
     ];
     return (
         <div className={styles.skills}>

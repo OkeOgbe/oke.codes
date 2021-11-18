@@ -103,7 +103,7 @@
 }
 
 .skills ul li {
-    color: var(--defaultPink);
+    color: #fff;
 }
 
 .projectCard {
@@ -193,4 +193,5 @@
     .about .heroCard .textHolder {
         margin-top: 2rem;
     }
+
 }

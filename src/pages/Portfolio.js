@@ -16,10 +16,10 @@ function Portfolio() {
                         variants={animtionValues}
                         transition={transitionValues}>
                         <div className={`sectionHeight ${styles.portfolio}`}>
-                            <div className="container">
+                            <div className="container pt-3">
                                 <h2 className='sectionHead--mid textIsPink text--light'>Recent Projects</h2>
 
-                                <div className="row pt-5">
+                                <div className="row pt-3 pb-4">
                                     <div className="col-md-6">
                                           <div className={`center isClickable ${styles.projectCard}`}>
                                             <div>
@@ -40,7 +40,6 @@ function Portfolio() {
                                             </div>
                                         </div>
                                     </div>
-
 
                                     <div className="col-md-6">
                                         <div className={`center isClickable ${styles.projectCard}`}>
@@ -68,18 +67,41 @@ function Portfolio() {
                                         <div className={`center isClickable ${styles.projectCard}`}>
                                             <div>
                                                 <div className={styles.imgHolder}>
-                                                    <img src="/images/easy.png" className='w-100' alt=""/>
+                                                    <img src="/images/maalexi.png" className='w-100' alt=""/>
                                                 </div>
 
                                             </div>
                                             <div className={`center ${styles.projectInfo} `}>
                                                 <div className="p-4 vAlign">
-                                                    <p className="textIsPink sectionHead--mid">Easyflex.ng</p>
+                                                    <p className="textIsPink sectionHead--mid">maalexi.com</p>
                                                     <p className="textIsWhite">
-                                                        An mvp for a fintech application powered by Raddr Technologies.
+                                                      A Wholesale Import and Finance of Food and Agriculture product built with Next.js and Typescript.
                                                     </p>
 
-                                                    <p className="textIsPink">Site Unavailable</p>
+                                                    <a href='https://maalexi.com/' target="_blank"  rel="noreferrer" className='textIsPink textIsBold'><i className="fas fa-link mx-1"></i> Visit Project</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+
+                   <div className="col-md-6 mt-4">
+                                        <div className={`center isClickable ${styles.projectCard}`}>
+                                            <div>
+                                                <div className={styles.imgHolder}>
+                                                    <img src="/images/hopeup.png" className='w-100' alt=""/>
+                                                </div>
+
+                                            </div>
+                                            <div className={`center ${styles.projectInfo} `}>
+                                                <div className="p-4 vAlign">
+                                                    <p className="textIsPink sectionHead--mid">Hopeup</p>
+                                                    <p className="textIsWhite">
+                                                      A coporate website built for an oil servicing company.
+                                                    </p>
+
+                                                    <a href='https://hopeupindustries.com/' target="_blank"  rel="noreferrer" className='textIsPink textIsBold'><i className="fas fa-link mx-1"></i> Visit Project</a>
                                                 </div>
                                             </div>
                                         </div>

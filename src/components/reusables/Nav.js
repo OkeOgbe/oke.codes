@@ -45,7 +45,9 @@ function Nav({changeTheme}) {
                     ))}
                 </div>
 
-                <div className={`mt-2 ${styles.menuIcon}`} onClick={() => setIsActive(!isActive)}>
+                <div
+                    className={`mt-2 ${styles.menuIcon}`}
+                    onClick={() => setIsActive(!isActive)}>
                     <div
                         className={`${isActive
                         ? styles.open
@@ -54,6 +56,22 @@ function Nav({changeTheme}) {
                         <p></p>
                     </div>
                 </div>
+
+                <div className={`alignOnly ${styles.sidebarMobile} ${isActive ? styles.active : ''} `}>
+                    <div className={` w-100 ${styles.content}`}>
+                        <div>
+                        {routes.map(route => (
+                            <div className="vAlign mt-3">
+                                <NavLink
+                                    exact
+                                    to={route.url}
+                                    className={` ${styles.link}`}>{route.text}</NavLink>
+                            </div>
+                        ))}
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     )

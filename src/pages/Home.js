@@ -41,9 +41,9 @@ function Home() {
                                         lineHeight: 2
                                     }}
                                         className='text--light'>Hello,
-                                        my name is Ogbe Daniel . I am an Ever Growing Front end Developer. I currently
-                                        live in Port Harcourt, Nigeria. With a year experience as a Web developer.</p>
-                                    <Link to='/projects' className="defaultBtn vAlign">View Projects
+                                        my name is Ogbe Daniel Oke, a Web Developer currently
+                                        living in Port Harcourt, Nigeria. With 3 years experience as a Web developer, I believe I can bring your project to life. </p>
+                                    <Link to='/portfolio' className="defaultBtn vAlign">View Projects
                                         <i className="fas fa-angle-right"></i>
                                     </Link>
                                 </div>

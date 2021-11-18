@@ -237,4 +237,8 @@ body {
     .flex-reverse{
         flex-direction: column-reverse;
     }
+
+    .bgText{
+        font-size: 100px;
+    }
 }
