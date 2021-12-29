@@ -234,6 +234,10 @@ body {
         min-height: 60vh;
     }
 
+    .sectionHead--mid{
+        font-size: 25px;
+    }
+
     .flex-reverse{
         flex-direction: column-reverse;
     }

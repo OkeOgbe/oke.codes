@@ -43,6 +43,7 @@
     animation: slideUp 12s steps(4) infinite;
     position: relative;
 }
+
 @keyframes slideUp {
     to {
         top: -250px;
@@ -104,6 +105,10 @@
 
 .skills ul li {
     color: #fff;
+}
+
+.portfolio{
+    overflow-x: hidden;
 }
 
 .projectCard {

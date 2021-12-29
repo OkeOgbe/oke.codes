@@ -19,7 +19,6 @@ function Skills() {
         'Firebase',
         'Git and Version Control',
         'Node.js',
-        'Web3.js',
         'Express',
         'Mongo DB'
     ];

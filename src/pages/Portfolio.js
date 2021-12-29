@@ -21,7 +21,7 @@ function Portfolio() {
 
                                 <div className="row pt-3 pb-4">
                                     <div className="col-md-6">
-                                          <div className={`center isClickable ${styles.projectCard}`}>
+                                        <div className={`center isClickable ${styles.projectCard}`}>
                                             <div>
                                                 <div className={styles.imgHolder}>
                                                     <img src="/images/ruthies.png" className='w-100' alt=""/>
@@ -32,10 +32,16 @@ function Portfolio() {
                                                 <div className="p-4 vAlign">
                                                     <p className="textIsPink sectionHead--mid">Ruthies</p>
                                                     <p className="textIsWhite">
-                                                      A coporate site for a Fashion and Beauty Store.
+                                                        A coporate site for a Fashion and Beauty Store.
                                                     </p>
 
-                                                    <a href='https://ruthies.netlify.app/' target="_blank"  rel="noreferrer" className='textIsPink textIsBold'><i className="fas fa-link mx-1"></i> Visit Project</a>
+                                                    <a
+                                                        href='https://ruthies.netlify.app/'
+                                                        target="_blank"
+                                                        rel="noreferrer"
+                                                        className='textIsPink textIsBold'>
+                                                        <i className="fas fa-link mx-1"></i>
+                                                        Visit Project</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -62,8 +68,7 @@ function Portfolio() {
                                         </div>
                                     </div>
 
-
-                   <div className="col-md-6 mt-4">
+                                    <div className="col-md-6 mt-4">
                                         <div className={`center isClickable ${styles.projectCard}`}>
                                             <div>
                                                 <div className={styles.imgHolder}>
@@ -75,18 +80,23 @@ function Portfolio() {
                                                 <div className="p-4 vAlign">
                                                     <p className="textIsPink sectionHead--mid">maalexi.com</p>
                                                     <p className="textIsWhite">
-                                                      A Wholesale Import and Finance of Food and Agriculture product built with Next.js and Typescript.
+                                                        A Wholesale Import and Finance of Food and Agriculture product built with
+                                                        Next.js and Typescript.
                                                     </p>
 
-                                                    <a href='https://maalexi.com/' target="_blank"  rel="noreferrer" className='textIsPink textIsBold'><i className="fas fa-link mx-1"></i> Visit Project</a>
+                                                    <a
+                                                        href='https://maalexi.com/'
+                                                        target="_blank"
+                                                        rel="noreferrer"
+                                                        className='textIsPink textIsBold'>
+                                                        <i className="fas fa-link mx-1"></i>
+                                                        Visit Project</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
-
-
-                   <div className="col-md-6 mt-4">
+                                    <div className="col-md-6 mt-4">
                                         <div className={`center isClickable ${styles.projectCard}`}>
                                             <div>
                                                 <div className={styles.imgHolder}>
@@ -98,15 +108,48 @@ function Portfolio() {
                                                 <div className="p-4 vAlign">
                                                     <p className="textIsPink sectionHead--mid">Hopeup</p>
                                                     <p className="textIsWhite">
-                                                      A coporate website built for an oil servicing company.
+                                                        A coporate website built for an oil servicing company.
                                                     </p>
 
-                                                    <a href='https://hopeupindustries.com/' target="_blank"  rel="noreferrer" className='textIsPink textIsBold'><i className="fas fa-link mx-1"></i> Visit Project</a>
+                                                    <a
+                                                        href='https://hopeupindustries.com/'
+                                                        target="_blank"
+                                                        rel="noreferrer"
+                                                        className='textIsPink textIsBold'>
+                                                        <i className="fas fa-link mx-1"></i>
+                                                        Visit Project</a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
 
+                                    <div className="col-md-6 mt-4">
+                                        <div className={`center isClickable ${styles.projectCard}`}>
+                                            <div>
+                                                <div className={styles.imgHolder}>
+                                                    <img src="/images/siteat.png" className='w-100' alt=""/>
+                                                </div>
+
+                                            </div>
+                                            <div className={`center ${styles.projectInfo} `}>
+                                                <div className="p-4 vAlign">
+                                                    <p className="textIsPink sectionHead--mid">SitEat</p>
+                                                    <p className="textIsWhite">
+                                                        A food ordering web application used for ordering food from concession stands.
+                                                        Built with React and Material UI.
+                                                    </p>
+
+                                                    <a
+                                                        href='https://app.siteat.org/'
+                                                        target="_blank"
+                                                        rel="noreferrer"
+                                                        className='textIsPink textIsBold'>
+                                                        <i className="fas fa-link mx-1"></i>
+                                                        Visit Project</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
 
                                 </div>
                             </div>

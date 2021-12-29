@@ -57,8 +57,8 @@ function Nav({changeTheme}) {
                     </div>
                 </div>
 
-                <div className={`alignOnly ${styles.sidebarMobile} ${isActive ? styles.active : ''} `}>
-                    <div className={` w-100 ${styles.content}`}>
+                <div className={`${styles.sidebarMobile} ${isActive ? styles.active : ''} `}>
+                    <div className={` w-100 h-100 center  ${styles.content}`}>
                         <div>
                         {routes.map(route => (
                             <div className="vAlign mt-3">
